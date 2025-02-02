@@ -32,7 +32,7 @@ public class CheckWincasa {
         }
 
         if (!"0".equals(res)) {
-            String connectionString = "endpoint=https://rs-az-comm-service.switzerland.communication.azure.com/;accesskey=pivfID4nNr5VDoHba/gh5tL8mQ1LLQFTx3RBb6WJUPzYiAEDJ+pzrmBMvoqSV0Bf72VRSqhzFOIW7ojVuha84w==";
+            String connectionString = "endpoint=https://rs-az-comm-service.switzerland.communication.azure.com/;accesskey=XXX";
             EmailClient emailClient = new EmailClientBuilder().connectionString(connectionString).buildClient();
 
             EmailAddress toAddress = new EmailAddress("lewap02@gmail.com");
